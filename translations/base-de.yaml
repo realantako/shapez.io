@@ -45,7 +45,7 @@ steamPage:
             [*] Unbegrenzte Anzahl von Spielständen
             [*] Dark-Mode
             [*] Mehr Einstellungen
-            [*] Erlaube es mir weiter an shapez.io zu entwickeln  ❤️
+            [*] Erlaube es mir weiter shapez.io zu entwickeln  ❤️
             [*] Mehr Funktionen in der Zukunft!
         [/list]
 
@@ -113,7 +113,7 @@ demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
     title: Demo Version
     intro: >-
-        Kauf die Standalone für alle Features!
+        Kauf die Standalone-Version für alle Features!
 
 mainMenu:
     play: Spielen
@@ -151,7 +151,7 @@ mainMenu:
 
         showInfo: Anschauen
         contestOver: Dieser Wettbewerb ist vorbei! Tritt dem Discord Server bei, um über neue Wettbewerbe informiert zu werden!
-    helpTranslate: Help translate!
+    helpTranslate: Hilf, das Spiel in andere Sprachen zu übersetzen!
 
 dialogs:
     buttons:
@@ -245,14 +245,14 @@ dialogs:
             Hier sind ein paar, aber prüfe am besten die <strong>Tastenkürzel-Einstellungen</strong>!<br><br>
              <code class='keybinding'>STRG</code> + Ziehen: Wähle Areal aus.<br>
              <code class='keybinding'>UMSCH</code>: Halten, um mehrere Gebäude zu platzieren.<br>
-             <code class='keybinding'>ALT</code>: Invertiere die Platzierung der Förderbänder.<br>
+             <code class='keybinding'>ALT</code>: Invertiere die Richtung der Förderbänder.<br>
 
     createMarker:
         title: Neuer Marker
         desc: Gib ihm einen sinnvollen Namen
 
     markerDemoLimit:
-        desc: Du kannst nur 2 benutzerdefinierte Marker in der Demo benutzen. Hol dir die Standalone um unendlich viele Marker zu benutzen!
+        desc: Du kannst nur 2 benutzerdefinierte Marker in der Demo benutzen. Hol dir die Standalone-Version um unendlich viele Marker zu benutzen!
     massCutConfirm:
         title: Confirm cut
         desc: >-
@@ -260,10 +260,10 @@ dialogs:
             want to do this?
 
     exportScreenshotWarning:
-        title: Export screenshot
+        title: Screenshot exportieren
         desc: >-
-            You requested to export your base as a screenshot. Please note that this can
-            be quite slow for a big base and even crash your game!
+            Du möchtest einen Screenshot deiner Fabrik machen. Beachte, 
+            dass eine große Fabrik diesen Vorgang verlangsamen oder dein Spiel zum abstürzen bringen kann!
 
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
@@ -319,7 +319,7 @@ ingame:
     # Mass select information, this is when you hold CTRL and then drag with your mouse
     # to select multiple buildings
     massSelect:
-        infoText: Press <keyCut> to cut, <keyCopy> to copy, <keyDelete> to remove and <keyCancel> to cancel.
+        infoText: Drücke <keyCut> zum Ausschneiden, <keyCopy> zum Kopieren, <keyDelete> um deine Auswahl zu entfernen oder <keyCancel> um abzubrechen.
 
     # The "Upgrades" window
     shop:
@@ -537,57 +537,57 @@ storyRewards:
 
     reward_miner_chainable:
         title: Chaining Extractor
-        desc: You have unlocked the <strong>chaining extractor</strong>! It can <strong>forward its resources</strong> to other extractors so you can more efficiently extract resources!
+        desc: Du hast den <strong>Verketteten Extrahierer</strong> freigeschaltet! Er kann seine <strong>ressourcen an andere Extrahierer weitergeben</strong>, sodass du effizienter Formen extrahieren kannst!
 
     reward_underground_belt_tier_2:
-        title: Tunnel Tier II
-        desc: You have unlocked a new variant of the <strong>tunnel</strong> - It has a <strong>bigger range</strong>, and you can also mix-n-match those tunnels now!
+        title: Tunnel Level II
+        desc: Du hast eine neue Variante des <strong>Tunnels</strong> freigeschaltet - er hat eine <strong>größere Reichweite</strong>, und du kannst beide Arten abwechselnd nutzen!
 
     reward_splitter_compact:
-        title: Compact Balancer
+        title: Kombinierer (kompakt)
         desc: >-
-            You have unlocked a compact variant of the <strong>balancer</strong> - It accepts two inputs and merges them into one!
+            Du hast eine kompakte Variante des <strong>Verteilers</strong> freigeschaltet - Er vereint zwei Förderbänder zu einem!
 
     reward_cutter_quad:
-        title: Quad Cutting
-        desc: You have unlocked a variant of the <strong>cutter</strong> - It allows you to cut shapes in <strong>four parts</strong> instead of just two!
+        title: Zerschneider (4-fach)
+        desc: Du hast  eine Variante des <strong>Zerschneiders</strong> freigeschaltet - Zerschneidet Formen in <strong>vier Teile<strong> statt nur zwei!
 
     reward_painter_double:
-        title: Double Painting
-        desc: You have unlocked a variant of the <strong>painter</strong> - It works as the regular painter but processes <strong>two shapes at once</strong> consuming just one color instead of two!
+        title: Färber (2-Fach)
+        desc: Du hast eine Variante des <strong>Färbers</strong> freigeschaltet - Er arbeitet wie der normale Färber, kann aber <strong>zwei Formen gleichzeitig färben</strong> und verbraucht dabei nur eine Farbe!
 
     reward_painter_quad:
-        title: Quad Painting
-        desc: You have unlocked a variant of the <strong>painter</strong> - It allows to paint each part of the shape individually!
+        title: Färber (4-Fach)
+        desc: Du hast eine Variante des <strong>Färbers</strong> freigeschaltet -  Er Erlaubt jedes einzelne Viertel einer Form beliebig zu färben.
 
     reward_storage:
-        title: Storage Buffer
-        desc: You have unlocked a variant of the <strong>trash</strong> - It allows to store items up to a given capacity!
+        title: Lager
+        desc: Du hast eine Variante des <strong>Mülleimers</strong> freigeschaltet - Er Lagert bis zu einer gewissen Kapazität Überschüssige Items!
 
     reward_freeplay:
-        title: Freeplay
-        desc: You did it! You unlocked the <strong>free-play mode</strong>! This means that shapes are now randomly generated! (No worries, more content is planned for the standalone!)
+        title: Freies Spiel
+        desc: Du hast es geschafft! Du hast den Modus <strong>Freies Spiel</strong> freigeschaltet! Das heißt, dass Formen jetzt zufällig generiert werden! (Keine Angst, Für das Standalone ist mehr Inhalt geplant!)
 
     reward_blueprints:
         title: Blueprints
-        desc: You can now <strong>copy and paste</strong> parts of your factory! Select an area (Hold CTRL, then drag with your mouse), and press 'C' to copy it.<br><br>Pasting it is <strong>not free</strong>, you need to produce <strong>blueprint shapes</strong> to afford it! (Those you just delivered).
+        desc: Du kannst jetzt Teile deiner Fabrik <strong>kopieren und einfügen</strong>! Wähle eine Fläche aus (halte STRG und ziehe mit der Maus), und drücke 'C' um es zu kopieren.<br><br>Das Einfügen ist <strong>nicht kostenlos</strong>, du musst <strong>Blueprint Formen</strong> Produzieren! (Die, die du gerade geliefert hast).
 
     # Special reward, which is shown when there is no reward actually
     no_reward:
-        title: Next level
+        title: Nächstes Level
         desc: >-
-            This level gave you no reward, but the next one will! <br><br> PS: Better don't destroy your existing factory - You need <strong>all</strong> those shapes later again to <strong>unlock upgrades</strong>!
+            In diesem Level hast du keine Belohnung bekommen, aber im nächsten! <br><br> PS: Zerstöre nicht deine alten Fabriken - Du brauchst <strong>alle</strong> diese Formen, um später <strong>Upgrades freizuschalten</strong>!
 
     no_reward_freeplay:
-        title: Next level
+        title: Nächstes Level
         desc: >-
-            Congratulations! By the way, more content is planned for the standalone!
+            Glückwunsch! Übrigens, für die Standalone-Version sind mehr Inhalte geplant!
 
 settings:
     title: Einstellungen
     categories:
         game: Spiel
-        app: Applikation
+        app: Anwendung
 
     versionBadges:
         dev: Entwicklung
@@ -601,7 +601,7 @@ settings:
             description: >-
                 Ändert die Größe der Benutzeroberfläche, basierend auf der Bildschirmauflösung.
             scales:
-                super_small: Sehr klein
+                super_small: Winzig
                 small: Klein
                 regular: Normal
                 large: Groß
@@ -662,15 +662,15 @@ settings:
                 Ändere die Sprache. Alle Übersetzungen werden von Nutzern erstellt und sind möglicherweise unvollständig!
 
         movementSpeed:
-            title: Movement speed
-            description: Changes how fast the view moves when using the keyboard.
+            title: Bewegungsgeschwindigkeit
+            description: Ändert die Geschwindigkeit mit der sich das Sichtfeld bewegt, wenn du die Tastatur benutzt.
             speeds:
-                super_slow: Super slow
-                slow: Slow
-                regular: Regular
-                fast: Fast
-                super_fast: Super Fast
-                extremely_fast: Extremely Fast
+                super_slow: Super Langsam
+                slow: Langsam
+                regular: Normal 
+                fast: Schnell
+                super_fast: Super Schnell
+                extremely_fast: Extrem Schnell
 
 keybindings:
     title: Tastenkürzel
@@ -691,21 +691,21 @@ keybindings:
     mappings:
         confirm: Bestätigen
         back: Zurück
-        mapMoveUp: Move Up
-        mapMoveRight: Move Right
-        mapMoveDown: Move Down
-        mapMoveLeft: Move Left
-        centerMap: Center Map
+        mapMoveUp: Nach oben bewegen
+        mapMoveRight: Nach rechts bewegen
+        mapMoveDown: Nach unten bewegen
+        mapMoveLeft: Nach links bewegen
+        centerMap: zur Kartenmitte bewegen
 
-        mapZoomIn: Zoom in
-        mapZoomOut: Zoom out
-        createMarker: Create Marker
+        mapZoomIn: heranzoomen
+        mapZoomOut: herauszoomen
+        createMarker: Marker erstellen
 
         menuOpenShop: Upgrades
-        menuOpenStats: Statistics
+        menuOpenStats: Statistiken
 
-        toggleHud: Toggle HUD
-        toggleFPSInfo: Toggle FPS and Debug Info
+        toggleHud: HUD an / aus
+        toggleFPSInfo: FPS und Debug Info an / aus
         belt: *belt
         splitter: *splitter
         underground_belt: *underground_belt
@@ -717,17 +717,17 @@ keybindings:
         painter: *painter
         trash: *trash
 
-        abortBuildingPlacement: Abort Placement
-        rotateWhilePlacing: Rotate
+        abortBuildingPlacement: Platzieren abbrechen
+        rotateWhilePlacing: Drehen
         rotateInverseModifier: >-
-            Modifier: Rotate CCW instead
-        cycleBuildingVariants: Cycle Variants
-        confirmMassDelete: Confirm Mass Delete
-        cycleBuildings: Cycle Buildings
+            Modifier: Gegen den Uhrzeigersinn drehen
+        cycleBuildingVariants: Varianten wechseln
+        confirmMassDelete: Löschen bestätigen
+        cycleBuildings: Gebäude wechseln
 
-        massSelectStart: Hold and drag to start
-        massSelectSelectMultiple: Select multiple areas
-        massSelectCopy: Copy area
+        massSelectStart: Halten und ziehen zum starten
+        massSelectSelectMultiple: mehrere Flächen auswählen
+        massSelectCopy: Fläche kopieren
 
         placementDisableAutoOrientation: Disable automatic orientation
         placeMultiple: Stay in placement mode
@@ -739,22 +739,22 @@ keybindings:
 about:
     title: Über dieses Spiel
     body: >-
-        This game is open source and developed by <a href="https://github.com/tobspr"
+        Dieses Spiel ist open source und wird entwickelt von <a href="https://github.com/tobspr"
         target="_blank">Tobias Springer</a> (this is me).<br><br>
 
-        If you want to contribute, check out <a href="<githublink>"
+        Wenn du beitragen möchtest, schau hier vorbei: <a href="<githublink>"
         target="_blank">shapez.io on github</a>.<br><br>
 
-        This game wouldn't have been possible without the great discord community
-        around my games - You should really join the <a href="<discordlink>"
-        target="_blank">discord server</a>!<br><br>
+        Dieses Spiel wäre ohne die großartige Discord Community
+       um meine Spiele nicht möglich gewesen - Du solltest dem <a href="<discordlink>"
+        target="_blank">Discord Server beitreten</a>!<br><br>
 
-        The soundtrack was made by <a href="https://soundcloud.com/pettersumelius"
-        target="_blank">Peppsen</a> - He's awesome.<br><br>
+        Der Soundtrack wurde von <a href="https://soundcloud.com/pettersumelius"
+        target="_blank">Peppsen</a> gemacht - Er ist wunderbar.<br><br>
 
-        Finally, huge thanks to my best friend <a
-        href="https://github.com/niklas-dahl" target="_blank">Niklas</a> - Without our
-        factorio sessions this game would never have existed.
+        Schließlich, ein großes Danke an meinen besten Freund <a
+        href="https://github.com/niklas-dahl" target="_blank">Niklas</a> - Ohne unsere 
+        Factorio Sessions Hätte dieses Spiel nie existiert.
 
 changelog:
     title: Änderungen
